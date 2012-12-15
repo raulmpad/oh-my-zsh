@@ -2,4 +2,4 @@ Own oh-my-zsh configuration.
 
 curl -L https://github.com/raulmpad/oh-my-zsh/raw/master/tools/install.sh | sh
 
-Better and more [here](https://github.com/robbyrussell/oh-my-zsh)
+Better and more here: https://github.com/robbyrussell/oh-my-zsh
