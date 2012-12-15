@@ -1,12 +1,12 @@
 # Aliases
 alias g='git'
 compdef g=git
-alias gst='git status'
+alias gs='git status'
 compdef _git gst=git-status
-alias gl='git pull'
+alias gpl='git pull'
 compdef _git gl=git-pull
-alias gup='git pull --rebase'
-compdef _git gup=git-fetch
+#alias gup='git pull --rebase'
+#compdef _git gup=git-fetch
 alias gp='git push'
 compdef _git gp=git-push
 alias gd='git diff'
@@ -18,6 +18,8 @@ alias gca='git commit -v -a'
 compdef _git gca=git-commit
 alias gco='git checkout'
 compdef _git gco=git-checkout
+alias go='git checkout $1'
+compdef _git go=git-checkout $1
 alias gcm='git checkout master'
 alias gr='git remote'
 compdef _git gr=git-remote
