@@ -78,3 +78,5 @@ else
     fi
   fi
 fi
+
+export LSCOLORS=dxfxcxdxbxegedabagacad
